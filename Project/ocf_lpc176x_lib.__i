@@ -1,0 +1,5 @@
+-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork 
+-I C:\Keil\ARM\RV31\INC 
+-I C:\Keil\ARM\CMSIS\Include 
+-I C:\Keil\ARM\Inc\NXP\LPC17xx 
+-o "ocf_lpc176x_lib.o" --omf_browse "ocf_lpc176x_lib.crf" --depend "ocf_lpc176x_lib.d" "ocf_lpc176x_lib.c"
